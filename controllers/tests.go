@@ -6,6 +6,8 @@ import (
     "gopkg.in/gorp.v1"
     "log"
     "strconv"
+    "github.com/confluentis/api/generators"
+    "time"
 )
 
 // Get a collectionof tests
@@ -38,4 +40,24 @@ func GetTest(c *gin.Context) {
     }
 
     c.JSON(200, test)
+}
+
+// Create a new Test
+func PostTest(c *gin.Context) {
+    var test entities.Test
+    db, _ := c.MustGet("db").(*gorp.DbMap)
+
+    if c.BindJSON(&test) == nil {
+        // we should store this.
+        test.Token = generators.GenerateToken()
+        test.Created = time.Now().UnixNano()
+
+        if err := db.Insert(&test); err != nil {
+            log.Printf("Error: %s", err)
+            c.JSON(404, nil)
+            return
+        }
+
+        c.JSON(201, test)
+    }
 }

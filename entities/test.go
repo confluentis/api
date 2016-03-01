@@ -4,7 +4,7 @@ import "time"
 
 type Test struct {
     Id int64        `db:"id" json:"id"`
-    Name string     `db:"name" json:"name"`
+    Name string     `db:"name" json:"name" binding:"required"`
     Token string    `db:"token" json:"token"`
     Created int64   `db:"created_at" json:"created_at"`
     Updated int64   `db:"updated_at" json:"updated_at"`
