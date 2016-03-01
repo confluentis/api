@@ -3,6 +3,9 @@
 *.a
 *.so
 
+.idea/*
+.idea/libraries/GOPATH__api_.xml
+
 # Folders
 _obj
 _test

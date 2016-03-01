@@ -1,0 +1,51 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;api&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+    </CLASSES>
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../../hellofresh/resizer/.idea" />
+      <root url="file://$PROJECT_DIR$/../../ssola/resizer/.git" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in/go-playground/validator.v8/.git" />
+      <root url="file://$PROJECT_DIR$/../../spf13/jwalterweatherman/.git" />
+      <root url="file://$PROJECT_DIR$/../../magiconair/properties/.git" />
+      <root url="file://$PROJECT_DIR$/../../hellofresh/resizer/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/http2/testdata" />
+      <root url="file://$PROJECT_DIR$/../../mitchellh/mapstructure/.git" />
+      <root url="file://$PROJECT_DIR$/../../ssola/resizer/Godeps/_workspace" />
+      <root url="file://$PROJECT_DIR$/../../hashicorp/hcl/hcl/printer/testdata" />
+      <root url="file://$PROJECT_DIR$/../../tools/godep/.git" />
+      <root url="file://$PROJECT_DIR$/../../spf13/viper/.git" />
+      <root url="file://$PROJECT_DIR$/../../nfnt/resize/.git" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/html/charset/testdata" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in/fsnotify.v1/.git" />
+      <root url="file://$PROJECT_DIR$/../../manucorporat/sse/.git" />
+      <root url="file://$PROJECT_DIR$/../../golang/protobuf/.git" />
+      <root url="file://$PROJECT_DIR$/../../magiconair/properties/_third_party" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/html/testdata" />
+      <root url="file://$PROJECT_DIR$/../../ssola/resizer/.idea" />
+      <root url="file://$PROJECT_DIR$/.git" />
+      <root url="file://$PROJECT_DIR$/.idea" />
+      <root url="file://$PROJECT_DIR$/../../go-sql-driver/mysql/.git" />
+      <root url="file://$PROJECT_DIR$/../../tools/godep/Godeps/_workspace" />
+      <root url="file://$PROJECT_DIR$/../../spf13/pflag/.git" />
+      <root url="file://$PROJECT_DIR$/../../BurntSushi/toml/_examples" />
+      <root url="file://$PROJECT_DIR$/../../golang/protobuf/proto/testdata" />
+      <root url="file://$PROJECT_DIR$/../../BurntSushi/toml/.git" />
+      <root url="file://$PROJECT_DIR$/../../hellofresh/resizer/Godeps/_workspace" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org/x/net/.git" />
+      <root url="file://$PROJECT_DIR$/../../golang/protobuf/protoc-gen-go/testdata" />
+      <root url="file://$PROJECT_DIR$/../../kr/pretty/.git" />
+      <root url="file://$PROJECT_DIR$/../../spf13/cast/.git" />
+      <root url="file://$PROJECT_DIR$/../../hashicorp/hcl/.git" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in/yaml.v2/.git" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in/gorp.v1/.git" />
+      <root url="file://$PROJECT_DIR$/../../kr/text/.git" />
+      <root url="file://$PROJECT_DIR$/../../gin-gonic/gin/.git" />
+    </excluded>
+  </library>
+</component>
