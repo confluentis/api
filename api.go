@@ -2,12 +2,24 @@ package main
 
 import (
     "github.com/gin-gonic/gin"
+    "github.com/confluentis/api/controllers"
+    "gopkg.in/gorp.v1"
 )
 
-var db = initDb()
+func DbMiddleware(db *gorp.DbMap) gin.HandlerFunc {
+    return func (c *gin.Context) {
+        c.Set("db", db)
+        c.Next()
+    }
+}
 
 func main() {
+    var db = initDb()
+    defer db.Db.Close()
+
     r := gin.Default()
+
+    r.Use(DbMiddleware(db))
 
     v1 := r.Group("api/v1")
     {
@@ -16,6 +28,8 @@ func main() {
                 "message": "pong",
             })
         })
+
+        v1.GET("/tests", controllers.GetTests)
     }
 
     r.Run() // listen and server on 0.0.0.0:8080
