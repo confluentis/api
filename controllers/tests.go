@@ -10,7 +10,7 @@ import (
     "time"
 )
 
-// Get a collectionof tests
+// Get a collection of tests
 func  GetTests(c *gin.Context) {
     var tests []entities.Test
     db, _ := c.MustGet("db").(*gorp.DbMap)
