@@ -30,6 +30,7 @@ func main() {
         })
 
         v1.GET("/tests", controllers.GetTests)
+        v1.GET("/tests/:id", controllers.GetTest)
     }
 
     r.Run() // listen and server on 0.0.0.0:8080
