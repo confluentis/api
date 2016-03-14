@@ -10,6 +10,8 @@ Basically we want to help you to tests your features allow in you to execute you
 
 This is the API that gives/stores information related to those tests. You can find in this organization more packages with specific clients for your language. Don't we support your language? Please create your own and share it!
 
+[API Documentation page](http://confluentis.github.io/slate/)
+
 #### Packages Used
 
 - GoDeps: Handling dependencies

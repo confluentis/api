@@ -18,7 +18,6 @@ func main() {
     defer db.Db.Close()
 
     r := gin.Default()
-
     r.Use(DbMiddleware(db))
 
     v1 := r.Group("api/v1")
